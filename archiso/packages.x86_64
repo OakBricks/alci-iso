@@ -15,7 +15,7 @@ crda
 darkhttpd
 ddrescue
 dhclient
-dhcpcd
+networkmanager
 diffutils
 dmraid
 dnsmasq
@@ -43,7 +43,7 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux
+linux-zen
 linux-atm
 linux-firmware
 livecd-sounds
@@ -130,7 +130,7 @@ xterm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
+lightdm
 bash-completion
 grub
 os-prober
@@ -142,8 +142,8 @@ xterm
 xorg-xrdb
 
 ##### you can also use nmtui from the terminal
-#networkmanager
-#network-manager-applet
+networkmanager
+network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -154,6 +154,7 @@ xorg-xrdb
 #xorg-server
 #xorg-apps
 #neofetch
+xorg
 
 
 ##### Drivers for graphical cards
@@ -167,7 +168,7 @@ virtualbox-guest-utils
 #xf86-video-intel
 #xf86-video-amdgpu
 #xf86-video-nouveau
-
+xorg-drivers
 #nvidia
 #nvidia-settings
 #nvidia-utils
@@ -192,11 +193,11 @@ virtualbox-guest-utils
 
 ##### want to have base-devel group
 
-#base-devel
+base-devel
 
 ##### want to have linux-headers
 
-#linux-headers
+linux-headers
 
 
 
@@ -206,7 +207,12 @@ virtualbox-guest-utils
 #xfce4
 #xfce4-goodies
 #neofetch
-
+openbox
+pcmanfm
+gvfs
+tint2
+jgmenu
+lxterminal
 
 
 ##### want to add/use the ArcoLinux repos
